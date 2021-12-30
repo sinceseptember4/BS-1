@@ -142,13 +142,13 @@
         </div>
         <section class="page-section container" id="contact">
             <div class="row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center mt-5">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d524.063721408662!2d136.93500095101112!3d35.13457792342877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037a671d1461bd%3A0xaf918be047bea798!2z6Iqz5pil5a-6!5e0!3m2!1sja!2sjp!4v1640831671463!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col-lg-6">
                     <div class="row gx-4 gx-lg-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6 text-center">
-                            <h2 class="mt-0">Let's Get In Touch!</h2>
+                            <h2 class="mt-0">ご連絡</h2>
                             <hr class="divider" />
                             <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
                         </div>
@@ -157,8 +157,16 @@
                         <div class="col-lg-6">
                             <form
                             action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSegUmI6CM3MjxeM2XLGCGNSPXqhLQvIZ2nxadqIB_Q9LaNAsQ/formResponse">
-                                <input type="text" name="entry.413871853" required>
-                                <textarea type="text" name="entry.1982392769" > </textarea>
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" type="text" name="entry.413871853" placeholder="Enter your name..." required/>
+                                    <label for="name">ご連絡先</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" type="text" type="text" name="entry.1982392769" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                    <label for="message">内容</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                </div>
                                 <input type="submit">
                             </form>
                         </div>
@@ -166,7 +174,7 @@
                     <div class="row gx-4 gx-lg-5 justify-content-center">
                         <div class="col-lg-4 text-center mb-5 mb-lg-0">
                             <i class="bi-telephone fs-2 mb-3 text-muted"></i>
-                            <div>+1 (555) 123-4567</div>
+                            <a href="tel:+81528418254">052-841-8254</a>
                         </div>
                     </div>
                 </div>
