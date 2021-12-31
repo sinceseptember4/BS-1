@@ -101,9 +101,7 @@ hr {
   opacity: 0.25;
 }
 
-hr:not([size]) {
-  height: 1px;
-}
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -2221,9 +2219,9 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #fab19d;
+  border-color: #afafaf;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(93, 75, 122, 0.5);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -11459,4 +11457,37 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+
+.btn {
+  display: inline-block;
+  border:1px solid;
+  color: #543618;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  border-radius: .3rem;
+  transform: translateY(0px);
+  transition:all .2s;
+  background:rgba(42, 15, 85,.03);
+ 
+}
+
+.btn :hover {
+  background:#fff;
+  transform: translateY(-3px);
+  box-shadow: 0 .3rem 0 ;
+}
+
+.white {
+  color: white;
+}
+
+.divider-white {
+
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f0f0f0;
+    opacity: 1;
 }
